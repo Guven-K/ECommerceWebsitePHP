@@ -1,0 +1,253 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(153, 13, 13);
+}
+.banner{
+    background-color: rgb(153, 13, 13);
+    text-align: center;
+    font: 50px Arial;
+    color: white;
+    padding: 85px;
+    border-bottom: 1px solid white;
+}
+.navigation{
+    text-align: center;
+    background-color: darkgoldenrod;
+    padding: 45px;
+    border-bottom: 1px solid white;  
+}
+.navigation a:hover{
+    background-color: rgb(150, 125, 63);
+    padding: 45px;
+    text-decoration: underline;
+}
+a {
+    padding: 45px;
+    color:white;
+    font: 30px Arial;
+    text-decoration: none;
+}
+.selected {
+    width: 1800px;
+    background-color: rgb(150, 109, 5);
+    padding: 45px;
+}
+footer{
+    bottom: 0;
+    font: bold 15px Arial;
+    text-align: center;
+    color: white;
+    background-color:black;
+    position: fixed;
+    width: 100%;
+    padding: 10px;           
+}
+
+#pagetitle{
+    float:right;
+    font: bold 15px Arial;
+    color:white;
+    position: absolute;
+    left: 80px;
+}
+
+/* Used to stylise my search results */ 
+#search{
+    width: 450px;
+    padding: 10px;
+    margin: 10px;
+    font: bold 15px Arial;
+    background-color: darkgoldenrod;
+    color:white;
+    position: absolute;
+    left: 700px;
+    border: 0.5px solid white;
+}
+#searchframe{
+    display: block;
+    background-color: rgb(150, 109, 5);
+    margin: 10px;
+    padding: 15px;
+    font: 17px Arial; 
+}
+
+
+/* This section is used to stylise for all of my pages, including the background, navigation and page title etc */
+
+
+/* This section is used to stylise my home page */
+
+
+#frame1{
+     height: 420px;
+     width: 500px;
+     margin: 65px;
+     padding: 32px;
+     background-color: darkgoldenrod;
+     text-align: left;
+     font: 15px Arial;
+     color: white;
+     position: absolute;
+     border: 1px solid white;
+}
+
+#frame2{
+    height: 420px;
+    width: 500px;
+    left: 600px;
+    margin: 65px;
+    padding: 32px;
+    background-color: darkgoldenrod;
+    font: 15px Arial;
+    text-align: left;
+    color: white;
+    position: absolute;
+    border: 1px solid white;
+}
+#frame3{
+    height: 420px;
+    width: 500px;
+    left: 1200px;
+    margin: 65px;
+    padding: 32px;
+    background-color: darkgoldenrod;
+    text-align: left;
+    font: 15px Arial;
+    color: white;
+    position: absolute;
+    border: 1px solid white;
+}
+
+article header{
+    font: 18px Arial;
+    text-decoration: underline;
+} /* Used to stylise and make header bigger */
+
+img{
+    border: 2.5px solid gray;
+    float: middle;
+    display: block;
+}
+/* Adds a border for the img */
+
+
+
+
+/* This section is used to stylise my About Us Page */ 
+#AboutFrame {
+    height: 700px;
+    width: 1700px;
+    margin: 65px;
+    padding: 32px;
+    background-color: darkgoldenrod;
+    text-align: left;
+    font: 15px Arial;
+    color: white;
+    position: relative;
+    border: 1px solid white;
+    text-decoration: none;
+}
+iframe{
+    float: right;
+    left: 140px;  /* Used to position Google Maps */ 
+}
+
+
+/* This section is used to stylise my products page */
+
+
+#products{
+    display: block;
+    float: left;
+    height: 2800x; /* 480px */
+    width: 755px;
+    left: 500px;
+    margin: 65px;
+    padding: 25px;
+    background-color: darkgoldenrod;
+    text-align: middle;
+    font: 18px Arial;
+    color: white;
+    position: relative;
+    border: 1px solid white;
+}
+
+#basket{
+    text-align: center;
+    outline: 2.5px solid white;
+    color: white;
+    background-color: darkgoldenrod;
+    padding: 10px;   
+} 
+
+/* Used to stylise basket button */ 
+ 
+/* Used to stylise Results page when staff searches for product */
+
+#staff {
+    height: 420px;
+    width: 500px;
+    left: 600px;
+    margin: 65px;
+    padding: 32px;
+    background-color: darkgoldenrod;
+    font: 15px Arial;
+    text-align: middle;
+    color: white;
+    position: absolute;
+    border: 1px solid white;
+}
+
+#button{
+    text-align: center;
+    outline: 2.5px solid white;
+    background-color: rgb(150, 109, 5);
+    padding: 10px; 
+    margin: 25px; 
+    display: block;
+}
+
+
+#cart {
+    height: 700px;
+    width: 1700px;
+    margin: 65px;
+    padding: 32px;
+    background-color: darkgoldenrod;
+    text-align: left;
+    font: 15px Arial;
+    color: white;
+    position: relative;
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+#ResultsFrame {
+    left: 500px;
+    height: 800px;
+    width: 700px;
+    margin: 65px;
+    padding: 32px;
+    background-color: darkgoldenrod;
+    text-align: left;
+    font: 15px Arial;
+    color: white;
+    position: relative;
+    border: 1px solid white;
+    text-decoration: none;
+}
+#AddFrame {
+    height: 420px;
+    width: 400px;
+    left: 600px;
+    margin: 65px;
+    padding: 35px;
+    background-color: darkgoldenrod;
+    font: 16px Arial;
+    text-align: left;
+    color: white;
+    position: absolute;
+    border: 1px solid white;
+}
+
